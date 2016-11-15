@@ -23,7 +23,10 @@ public class StoryActivity extends AppCompatActivity {
         ArrayList words = intent.getStringArrayListExtra("words");
         String text = "Last month, I went to Disney World with " + words.get(0) + ". We traveled for " + words.get(1) + " by " + words.get(2) + ". " +
                 "Finally, we got there and it was very " + words.get(3) + ". There were " + words.get(4) + " people " + words.get(5) +
-                " everywhere. There were also people dressed up in " + words.get(6) + " costumes.";
+                " everywhere. There were also people dressed up in " + words.get(6) + " costumes. I wish it had been more " + words.get(7) +
+                ", but we " + words.get(8) + " anyway. We also went on some " + words.get(9) + " rides, called 'Magic " + words.get(6) + "'. " +
+                words.get(0) + " nearly fell off a ride and had to be " + words.get(10) + ". Later we went to the hotel and " + words.get(11) + "." +
+                " Next year, I want to go to " + words.get(12) + ", where we can " + words.get(13) + ".";
         mStoryTextView.setText(text);
     }
 }

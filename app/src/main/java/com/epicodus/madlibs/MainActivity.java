@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Bind(R.id.word4EditText) EditText mWord4EditText;
     @Bind(R.id.word5EditText) EditText mWord5EditText;
     @Bind(R.id.word6EditText) EditText mWord6EditText;
+    @Bind(R.id.word7EditText) EditText mWord7EditText;
+    @Bind(R.id.word8EditText) EditText mWord8EditText;
+    @Bind(R.id.word9EditText) EditText mWord9EditText;
+    @Bind(R.id.word10EditText) EditText mWord10EditText;
+    @Bind(R.id.word11EditText) EditText mWord11EditText;
+    @Bind(R.id.word12EditText) EditText mWord12EditText;
+    @Bind(R.id.word13EditText) EditText mWord13EditText;
     ArrayList<String> words = new ArrayList<>();
 
     @Override
@@ -42,10 +49,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             words.add(mWord4EditText.getText().toString());
             words.add(mWord5EditText.getText().toString());
             words.add(mWord6EditText.getText().toString());
+            words.add(mWord7EditText.getText().toString());
+            words.add(mWord8EditText.getText().toString());
+            words.add(mWord9EditText.getText().toString());
+            words.add(mWord10EditText.getText().toString());
+            words.add(mWord11EditText.getText().toString());
+            words.add(mWord12EditText.getText().toString());
+            words.add(mWord13EditText.getText().toString());
             Intent intent = new Intent(MainActivity.this, StoryActivity.class);
             intent.putExtra("words", words);
             startActivity(intent);
         }
-
     }
 }

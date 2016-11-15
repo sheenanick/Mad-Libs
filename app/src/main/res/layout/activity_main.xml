@@ -68,6 +68,63 @@
         android:layout_below="@+id/word5EditText"
         android:layout_marginTop="20dp"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word7EditText"
+        android:hint="Adjective"
+        android:layout_above="@+id/word1EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word8EditText"
+        android:hint="Past Tense Verb"
+        android:layout_above="@+id/word2EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word9EditText"
+        android:hint="Adjective"
+        android:layout_above="@+id/word3EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word10EditText"
+        android:hint="Past Tense Verb"
+        android:layout_above="@+id/word4EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word11EditText"
+        android:hint="Past Tense Verb"
+        android:layout_above="@+id/word5EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word12EditText"
+        android:hint="Place"
+        android:layout_above="@+id/word6EditText"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word13EditText"
+        android:hint="Verb"
+        android:layout_below="@+id/word12EditText"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
