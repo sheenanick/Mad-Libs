@@ -16,7 +16,7 @@ public class Story1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_story);
+        setContentView(R.layout.activity_story1);
         ButterKnife.bind(this);
 
         Intent intent = getIntent();

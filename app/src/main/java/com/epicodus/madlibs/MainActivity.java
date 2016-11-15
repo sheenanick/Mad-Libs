@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent(MainActivity.this, Choice1Activity.class);
                 startActivity(intent);
             } else if (radioButtonText.equals("Adventure")) {
-                Toast.makeText(MainActivity.this, radioButton.getText(),Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, Choice2Activity.class);
+                startActivity(intent);
             }
         }
     }
