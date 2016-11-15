@@ -17,11 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StoryActivity">
+        <activity android:name=".Story1Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.epicodus.madlibs.MainActivity"></meta-data>
+                android:value="com.epicodus.madlibs.MainActivity" />
         </activity>
+        <activity android:name=".Choice1Activity"></activity>
     </application>
 
 </manifest>

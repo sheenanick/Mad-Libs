@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epicodus.madlibs.Choice1Activity">
+
+    <ImageView
+        android:contentDescription="main background"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/mainbackground"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:id="@+id/word0EditText"
+        android:hint="Friend's name"
+        android:layout_below="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word1EditText"
+        android:hint="Number hours"
+        android:layout_below="@+id/word0EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word2EditText"
+        android:hint="Vehicle"
+        android:layout_below="@+id/word1EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word3EditText"
+        android:hint="Adjective"
+        android:layout_below="@+id/word2EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word4EditText"
+        android:hint="Adjective"
+        android:layout_below="@+id/word3EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word5EditText"
+        android:hint='"ing" verb'
+        android:layout_below="@+id/word4EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word6EditText"
+        android:hint="Animal"
+        android:layout_below="@+id/word5EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word7EditText"
+        android:hint="Adjective"
+        android:layout_below="@+id/word6EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word8EditText"
+        android:hint="Past Tense Verb"
+        android:layout_below="@+id/word7EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word9EditText"
+        android:hint="Adjective"
+        android:layout_below="@+id/word8EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word10EditText"
+        android:hint="Past Tense Verb"
+        android:layout_below="@+id/word9EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word11EditText"
+        android:hint="Past Tense Verb"
+        android:layout_below="@+id/word10EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word12EditText"
+        android:hint="Place"
+        android:layout_below="@+id/word11EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/word13EditText"
+        android:hint="Verb"
+        android:layout_below="@+id/word12EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.25dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Mad Libs!"
+        android:id="@+id/createButton"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

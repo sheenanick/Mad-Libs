@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class StoryActivity extends AppCompatActivity {
+public class Story1Activity extends AppCompatActivity {
     @Bind(R.id.storyTextView) TextView mStoryTextView;
 
     @Override
