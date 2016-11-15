@@ -5,12 +5,22 @@
     android:layout_height="match_parent"
     tools:context="com.epicodus.madlibs.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/mainbackground"
+        android:scaleType="centerCrop" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mad Libs"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="30sp"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -18,6 +28,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word0EditText"
         android:hint="Friend's name"
+        android:background="@color/colorWhite"
         android:layout_marginTop="30dp"/>
 
     <EditText
@@ -25,6 +36,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word1EditText"
         android:hint="Number hours"
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word0EditText"
         android:layout_marginTop="20dp"/>
 
@@ -33,6 +45,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word2EditText"
         android:hint="Vehicle"
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word1EditText"
         android:layout_marginTop="20dp"/>
 
@@ -41,6 +54,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word3EditText"
         android:hint="Adjective"
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word2EditText"
         android:layout_marginTop="20dp"/>
 
@@ -49,6 +63,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word4EditText"
         android:hint="Adjective"
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word3EditText"
         android:layout_marginTop="20dp"/>
 
@@ -57,6 +72,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word5EditText"
         android:hint='"ing" verb'
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word4EditText"
         android:layout_marginTop="20dp"/>
 
@@ -65,6 +81,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word6EditText"
         android:hint="Animal"
+        android:background="@color/colorWhite"
         android:layout_below="@+id/word5EditText"
         android:layout_marginTop="20dp"/>
 
@@ -73,14 +90,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/word7EditText"
         android:hint="Adjective"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word1EditText"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/word8EditText"
         android:hint="Past Tense Verb"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word2EditText"
         android:layout_alignParentRight="true" />
 
@@ -89,6 +109,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word9EditText"
         android:hint="Adjective"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word3EditText"
         android:layout_alignParentRight="true" />
 
@@ -97,6 +118,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word10EditText"
         android:hint="Past Tense Verb"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word4EditText"
         android:layout_alignParentRight="true" />
 
@@ -105,6 +127,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word11EditText"
         android:hint="Past Tense Verb"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word5EditText"
         android:layout_alignParentRight="true" />
 
@@ -113,6 +136,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/word12EditText"
         android:hint="Place"
+        android:background="@color/colorWhite"
         android:layout_above="@+id/word6EditText"
         android:layout_alignParentRight="true" />
 
@@ -121,8 +145,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/word13EditText"
         android:hint="Verb"
-        android:layout_below="@+id/word12EditText"
         android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/word12EditText"
         android:layout_alignParentRight="true" />
 
     <Button
