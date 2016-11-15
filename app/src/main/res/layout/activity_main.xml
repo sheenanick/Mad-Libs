@@ -16,15 +16,23 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/word1EditText"
+        android:id="@+id/word0EditText"
         android:hint="Friend's name"
         android:layout_marginTop="30dp"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/word2EditText"
+        android:id="@+id/word1EditText"
         android:hint="Number hours"
+        android:layout_below="@+id/word0EditText"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word2EditText"
+        android:hint="Vehicle"
         android:layout_below="@+id/word1EditText"
         android:layout_marginTop="20dp"/>
 
@@ -32,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/word3EditText"
-        android:hint="Vehicle"
+        android:hint="Adjective"
         android:layout_below="@+id/word2EditText"
         android:layout_marginTop="20dp"/>
 
@@ -48,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/word5EditText"
-        android:hint="Adjective"
+        android:hint='"ing" verb'
         android:layout_below="@+id/word4EditText"
         android:layout_marginTop="20dp"/>
 
@@ -56,16 +64,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/word6EditText"
-        android:hint='"ing" verb'
-        android:layout_below="@+id/word5EditText"
-        android:layout_marginTop="20dp"/>
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/word7EditText"
         android:hint="Animal"
-        android:layout_below="@+id/word6EditText"
+        android:layout_below="@+id/word5EditText"
         android:layout_marginTop="20dp"/>
 
     <Button
