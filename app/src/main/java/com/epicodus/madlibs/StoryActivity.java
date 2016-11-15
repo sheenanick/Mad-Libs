@@ -25,6 +25,9 @@ public class StoryActivity extends AppCompatActivity {
         String word5 = intent.getStringExtra("word5");
         String word6 = intent.getStringExtra("word6");
         String word7 = intent.getStringExtra("word7");
-        mStoryTextView.setText(word1 + word2);
+        String text = "Last month, I went to Disney World with " + word1 + ". We traveled for " + word2 + " by " + word3 + ". " +
+                "Finally, we got there and it was very " + word4 + ". There were " + word5 + " people " + word6 +
+                " everywhere. There were also people dressed up in " + word7 + " costumes.";
+        mStoryTextView.setText(text);
     }
 }
